@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.1_362434c44fcde07583a29e8cc31653702348aa42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -12,12 +21,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_17d3b9faeabf889b581a4f02011d4dbe2dedf23f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
         <dex dex="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_566e6dc5a5687f18781fdfdbfc8b0a422035367a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c398c153580f1942ebf7abcb3bc252deff0cea56">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1dccfeae171508ae3d66c534efb0cb3ad374e74c/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -48,12 +75,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b1465cad01dba8cd5acc3ddadadac70ad64cee58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="92d03667e8feecf3a4b122f394771ca870405c16">
         <dex dex="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c7faa9ee2465b0cfb35422dfa8809b8c949c1ad3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.6.1_7b58f5caf1a117c73616d2396831184072645d63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_c24b0162df6daba13aa9642dafb202ee931df638/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_196069a47625ecb253a2b9f4cebe71191c2f18f9/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -81,6 +144,24 @@
         revision="24.0.3"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
         <dex dex="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_f6b09c3159c7f2efb43a6f0bc28a4e535dcba049/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_e656acf0979274df7b98857893928d37a9feb07a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_3df7ab50003411d2eab4ba729ff92ed25f08a62b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -129,12 +210,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_abe41f6c8116a18aa5290bda90f72bb81fe3c569/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="593fbaec1c3e100480a2bd72457b64b7dde6ac2d">
         <dex dex="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.2.0_31197e24e9e69be299ff7b5a1fe31f95e20e5cae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_e5f5a5ed77b44e827a224e317867e5f98792bf60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.1_5db2cfd2f9c37429af17d37ef409e348a89e751a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.6.1_461b9b89023c40d2f899e424d443e2108e0eb2fe/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -162,6 +279,33 @@
         revision="24.0.3"
         sha1="4838df6db988160b107e954e02a745370df543b6">
         <dex dex="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.2.0_98d5c07790c2e86ddbb46499121747dc6c9995cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2d073c1b879b51b91e396deeba1fb6492c65059c">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_33dab85ca91b189abeea0eaa58b7308f7f456ff5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b3dcfb05d076709c2f1add30ba72f71a00aff803/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_1ee1224b4210e7ef6995331ed4ad2de21b58a526/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -201,12 +345,75 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_a05cdaea8bf3efade3fda2d7ce73c449b6d68b4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_61364f277346fd07765fd0c359c648d8dd9d414c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_ec0114ea9b5a6a3d4ae82a2c10f8654e3b32309b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
         <dex dex="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_84f3fde02a8c19e48beadbfd7a7719e9d80b49dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.1_c9a15264eeff9820750dd7233e508c91f6047d87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_1a6a97b5cea9608f69e72c861e9c2bd071ed520f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_142468fd14739667ef9ab03abd505e9c16e408f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_4ae2e24b2898de9f79491dcd7f84f434881e422b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -219,6 +426,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.6.1_bffa3d9b1b42d313b3d0451e32424abacd0e68a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -228,12 +444,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ef4ce571c4432b7b6b13ef6ab4283ddcdfe1d3c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Nero/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
         <dex dex="/Users/Nero/Desktop/AndroidApps/Foodies/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_54d2f88e873233c18a7e45b5f83a2307b0218013/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_c63a8cae681823ac306d90099c35f609bc246b5e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.6.1_e06dfd2fd88e9ee25fa218df5b31efcd58cffc79/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_01cdf8c497cccb9be8569ee351dcbc29565fd337/classes.dex" />
     </item>
     <item
         is-multidex="true"

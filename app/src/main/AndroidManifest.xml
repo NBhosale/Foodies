@@ -13,16 +13,21 @@
         <activity
             android:name=".LoginActivityPage"
             android:screenOrientation="portrait" />
-        <activity android:name=".RegisterUser" />
-        <activity android:name=".SplashScreen">
+        <activity android:name=".RegisterUser"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SplashScreen"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ItemListActivity"
-            android:label="Home"></activity>
+        <activity android:name=".MainActivityNavigation"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

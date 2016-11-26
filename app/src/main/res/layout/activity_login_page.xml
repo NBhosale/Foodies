@@ -56,7 +56,9 @@
                 android:background="@drawable/roundededitbox"
                 android:layout_weight="1"
                 android:hint="@string/e_mail"
-                android:layout_margin="15dp" />
+                android:layout_margin="15dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/holo_blue_dark" />
 
             <EditText
             android:layout_width="match_parent"
@@ -68,7 +70,9 @@
             android:id="@+id/editTextPassword"
             android:hint="@string/password"
                 android:layout_weight="1"
-                android:layout_margin="15dp" />
+                android:layout_margin="15dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/holo_blue_dark" />
 
             <Button
                 android:layout_width="match_parent"
@@ -95,8 +99,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonGoogleLogin"
                     android:textSize="10sp"
-                    android:layout_weight="1"
-                    android:background="@drawable/common_plus_signin_btn_text_dark" />
+                    android:layout_weight="1" />
 
                 <LinearLayout
                     android:orientation="horizontal"

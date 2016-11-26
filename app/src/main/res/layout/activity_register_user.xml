@@ -34,7 +34,9 @@
             android:paddingLeft="10dp"
             android:background="@drawable/roundededitbox"
             android:hint="@string/e_mail"
-            android:layout_margin="10dp" />
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/holo_blue_dark" />
 
         <EditText
             android:layout_width="match_parent"
@@ -46,7 +48,9 @@
             android:paddingLeft="10dp"
             android:background="@drawable/roundededitbox"
             android:layout_margin="10dp"
-            android:hint="@string/password" />
+            android:hint="@string/password"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/holo_blue_dark" />
 
         <EditText
             android:layout_width="match_parent"
@@ -58,7 +62,9 @@
             android:id="@+id/passwordConfirmEdit"
             android:background="@drawable/roundededitbox"
             android:layout_margin="10dp"
-            android:hint="@string/confirm_password" />
+            android:hint="@string/confirm_password"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/holo_blue_dark" />
 
         <Button
             android:text="@string/sign_up"

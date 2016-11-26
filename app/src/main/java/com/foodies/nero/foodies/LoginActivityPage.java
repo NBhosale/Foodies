@@ -25,7 +25,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class LoginActivityPage extends AppCompatActivity implements View.OnClickListener{
     private ImageView backgroundOne;
     private ImageView backgroundTwo;
-    private TextView onCreateAccount;
+    private TextView onCreateAccount, textSkip;
     private Button logInUser;
     private EditText emailTextField, passwordTextField;
     private String passwordHolder, emailHolder;
@@ -38,11 +38,9 @@ public class LoginActivityPage extends AppCompatActivity implements View.OnClick
         setContentView(R.layout.activity_login_page);
         firebaseAuth = FirebaseAuth.getInstance();
         if(firebaseAuth.getCurrentUser() != null){
-            startActivity(new Intent(this, ItemListActivity.class));
+            startActivity(new Intent(this, MainActivityNavigation.class));
             finish();
         }
-
-
         initiateViews();
         startAnimation();
 
@@ -59,6 +57,9 @@ public class LoginActivityPage extends AppCompatActivity implements View.OnClick
 
             case R.id.buttonLogin:
                 logInUserAfterAuthentication();
+                break;
+            case R.id.textViewSkip:
+                startActivity(new Intent(this, MainActivityNavigation.class));
                 break;
         }
     }
@@ -104,7 +105,7 @@ public class LoginActivityPage extends AppCompatActivity implements View.OnClick
                         progressDialog.dismiss();
                         if(task.isSuccessful()){
                             Toast.makeText(getApplicationContext(), "Success!", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(), ItemListActivity.class));
+                            startActivity(new Intent(getApplicationContext(), MainActivityNavigation.class));
                             finish();
                         }else{
                             Toast.makeText(getApplicationContext(), "Email or password incorrect!", Toast.LENGTH_SHORT).show();
@@ -116,10 +117,10 @@ public class LoginActivityPage extends AppCompatActivity implements View.OnClick
     }
 
     public void initiateViews(){
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
         progressDialog = new ProgressDialog(this);
         backgroundOne = (ImageView) findViewById(R.id.imageViewBackground1);
+        textSkip = (TextView)findViewById(R.id.textViewSkip);
+        textSkip.setOnClickListener(this);
         logInUser = (Button)findViewById(R.id.buttonLogin);
         logInUser.setOnClickListener(this);
         backgroundTwo = (ImageView) findViewById(R.id.imageViewBackground2);

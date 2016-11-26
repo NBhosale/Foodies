@@ -9,4 +9,36 @@
     <string name="create_account">Create account!</string>
     <string name="google">Google</string>
     <string name="login">Login</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Home</item>
+        <item>Starters</item>
+        <item>Main Course</item>
+        <item>Dessert</item>
+        <item>Groceries List</item>
+        <item>Settings</item>
+        <item>Sign Out</item>
+    </string-array>
+    <string-array name="navigation_drawer_items_array_normal">
+        <item>Home</item>
+        <item>Starters</item>
+        <item>Main Course</item>
+        <item>Dessert</item>
+        <item>Groceries List</item>
+        <item>Settings</item>
+        <item>Sign In</item>
+    </string-array>
+    <string-array name="navigation_drawer_items_array_admin">
+        <item>Home</item>
+        <item>Starters</item>
+        <item>Main Course</item>
+        <item>Dessert</item>
+        <item>Groceries List</item>
+        <item>Settings</item>
+        <item>Sign Out</item>
+        <item>Add Recipe</item>
+    </string-array>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
