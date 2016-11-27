@@ -10,11 +10,14 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp">
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/editTextRecipeName"
@@ -23,7 +26,8 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/editTextRecipeType"
@@ -31,7 +35,8 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/editTextImageUrl"
@@ -39,7 +44,8 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/editTextRecipeOrigin"
@@ -47,10 +53,18 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
             android:inputType="textMultiLine"
+            android:layout_gravity="start"
             android:ems="10"
             android:id="@+id/editTextDescription"
             android:hint="Description of dish like list of ingredients and how to make it" />
+
+        <Button
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSave" />
     </LinearLayout>
 </FrameLayout>
