@@ -93,7 +93,7 @@
                 android:layout_margin="5dp"
                 >
 
-                <Button
+                <com.google.android.gms.common.SignInButton
                     android:text="@string/google"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"

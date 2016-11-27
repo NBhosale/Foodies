@@ -37,15 +37,20 @@ public class MainActivityNavigation extends AppCompatActivity {
         setContentView(R.layout.activity_main_navigation);
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseUser = firebaseAuth.getCurrentUser();
-        Toast.makeText(this, "Welcome "+firebaseUser.getEmail().toString(), Toast.LENGTH_SHORT).show();
         if(firebaseAuth.getCurrentUser() == null){
             menuItems = navigationForNormalUser;
         }else if(firebaseUser.getEmail().toString().equals("adminfoodies@gmail.com")){
             menuItems = R.array.navigation_drawer_items_array_admin;
-
+            Toast.makeText(this, "Welcome "+firebaseUser.getEmail().toString(), Toast.LENGTH_SHORT).show();
         } else{
+            Toast.makeText(this, "Welcome "+firebaseUser.getEmail().toString(), Toast.LENGTH_SHORT).show();
             menuItems = navigationForLoggedInUser;
         }
+        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        ft.replace(R.id.content_frame, new HomePage());
+        ft.addToBackStack(null);
+        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+        ft.commit();
         titles = getResources().getStringArray(menuItems);
         drawerList = (ListView) findViewById(R.id.drawer);
         drawerList.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, titles));

@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="c398c153580f1942ebf7abcb3bc252deff0cea56">
+        sha1="b479e0ac1e4f67d918856320f60be59b84d7273a">
         <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1dccfeae171508ae3d66c534efb0cb3ad374e74c/classes.dex" />
     </item>
     <item
@@ -286,8 +286,17 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="2d073c1b879b51b91e396deeba1fb6492c65059c">
+        sha1="01187647eaad0e78503ff8d220d0d806d245fa03">
         <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_33dab85ca91b189abeea0eaa58b7308f7f456ff5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.6.1_92b4153da649c35625c3838eb4ab45a7272af041/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -387,6 +396,15 @@
         revision="24.0.3"
         sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
         <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.1_c9a15264eeff9820750dd7233e508c91f6047d87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
+        <dex dex="/Users/Nero/Desktop/AndroidApps/FoodiesApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.6.1_f3489b87c63deb71535ce5d4236cbaca57a313c3/classes.dex" />
     </item>
     <item
         is-multidex="true"
