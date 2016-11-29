@@ -116,6 +116,12 @@ public class LoginActivityPage extends AppCompatActivity implements View.OnClick
         animator.start();
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        finish();
+    }
+
     private void logInUserAfterAuthentication(){
         passwordHolder = passwordTextField.getText().toString();
         emailHolder = emailTextField.getText().toString();
@@ -128,7 +134,7 @@ public class LoginActivityPage extends AppCompatActivity implements View.OnClick
             Toast.makeText(this, "Please Enter Email", Toast.LENGTH_SHORT).show();
             return;
         }
-        progressDialog.setMessage("Registering user...");
+        progressDialog.setMessage("Login user...");
         progressDialog.show();
         firebaseAuth.signInWithEmailAndPassword(emailHolder, passwordHolder)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {

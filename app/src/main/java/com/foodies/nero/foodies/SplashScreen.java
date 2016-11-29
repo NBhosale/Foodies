@@ -20,4 +20,10 @@ public class SplashScreen extends AppCompatActivity {
             }
         }, secondsDelayed * 3000);
     }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        finish();
+    }
 }

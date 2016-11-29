@@ -2,6 +2,7 @@ package com.foodies.nero.foodies;
 
 import android.content.Context;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
@@ -33,5 +34,19 @@ public class HomePage extends Fragment {
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
+    }
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        getActivity().finish();
+    }
+
+    class MyAsyncTask extends AsyncTask<String, String, String> {
+
+
+        protected String doInBackground(String... params) {
+
+            return null;
+        }
     }
 }

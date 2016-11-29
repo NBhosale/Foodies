@@ -1,5 +1,6 @@
 package com.foodies.nero.foodies;
 
+import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.support.v4.widget.DrawerLayout;
@@ -31,26 +32,52 @@ public class MainActivityNavigation extends AppCompatActivity {
     private int navigationForLoggedInUser = R.array.navigation_drawer_items_array;
     private int navigationForNormalUser = R.array.navigation_drawer_items_array_normal;
     private int menuItems = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_navigation);
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseUser = firebaseAuth.getCurrentUser();
-        if(firebaseAuth.getCurrentUser() == null){
+        if (firebaseAuth.getCurrentUser() == null) {
             menuItems = navigationForNormalUser;
-        }else if(firebaseUser.getEmail().toString().equals("adminfoodies@gmail.com")){
+        } else if (firebaseUser.getEmail().toString().equals("adminfoodies@gmail.com")) {
             menuItems = R.array.navigation_drawer_items_array_admin;
-            Toast.makeText(this, "Welcome "+firebaseUser.getEmail().toString(), Toast.LENGTH_SHORT).show();
-        } else{
-            Toast.makeText(this, "Welcome "+firebaseUser.getEmail().toString(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Welcome " + firebaseUser.getEmail().toString(), Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "Welcome " + firebaseUser.getEmail().toString(), Toast.LENGTH_SHORT).show();
             menuItems = navigationForLoggedInUser;
         }
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.content_frame, new HomePage());
-        ft.addToBackStack(null);
-        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-        ft.commit();
+        if (getIntent().getIntExtra("StartFragmentNUmber", 0) == 1) {
+            FragmentTransaction ft = getFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, new StartersPage());
+            ft.addToBackStack(null);
+            ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            ft.commit();
+            this.getSupportActionBar().setTitle(("Starter"));
+        }
+        else if (getIntent().getIntExtra("StartFragmentNUmber", 0) == 3) {
+            FragmentTransaction ft = getFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, new MainCoursePage());
+            ft.addToBackStack(null);
+            ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            ft.commit();
+            this.getSupportActionBar().setTitle(("Main Course"));
+        } else if (getIntent().getIntExtra("StartFragmentNUmber", 0) == 2) {
+            FragmentTransaction ft = getFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, new DessertPage());
+            ft.addToBackStack(null);
+            ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            ft.commit();
+            this.getSupportActionBar().setTitle(("Dessert"));
+        }else {
+            FragmentTransaction ft = getFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, new HomePage());
+            ft.addToBackStack(null);
+            ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            ft.commit();
+            this.getSupportActionBar().setTitle(("Home"));
+        }
         titles = getResources().getStringArray(menuItems);
         drawerList = (ListView) findViewById(R.id.drawer);
         drawerList.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, titles));
@@ -84,8 +111,19 @@ public class MainActivityNavigation extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onBackPressed() {
+        FragmentManager fragmentManager = getFragmentManager();
+        int backCount = fragmentManager.getBackStackEntryCount();
+
+        if (backCount > 0) {
+            finish();
+        }
+    }
+
+
     public boolean onPrepareOptionsMenu(Menu menu) {
-         boolean drawerOpen = drawerLayout.isDrawerOpen(drawerList);
+        boolean drawerOpen = drawerLayout.isDrawerOpen(drawerList);
         //menu.findItem(R.id.action_share).setVisible(!drawerOpen);
         return super.onPrepareOptionsMenu(menu);
     }
@@ -126,6 +164,7 @@ public class MainActivityNavigation extends AppCompatActivity {
             case 6:
                 firebaseAuth.signOut();
                 startActivity(new Intent(this, LoginActivityPage.class));
+                finish();
                 break;
             default:
                 fragment = new AddRecipesPage();
@@ -139,6 +178,7 @@ public class MainActivityNavigation extends AppCompatActivity {
         setActionBarTitle(position);
         drawerLayout.closeDrawer(drawerList);
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (drawerToggle.onOptionsItemSelected(item)) {
@@ -146,6 +186,7 @@ public class MainActivityNavigation extends AppCompatActivity {
         }
         return false;
     }
+
     private void setActionBarTitle(int position) {
         String title;
         if (position == 0) {
@@ -154,5 +195,11 @@ public class MainActivityNavigation extends AppCompatActivity {
             title = titles[position];
         }
         this.getSupportActionBar().setTitle(title);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        finish();
     }
 }

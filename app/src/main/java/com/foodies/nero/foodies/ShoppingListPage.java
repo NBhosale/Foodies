@@ -26,8 +26,15 @@ public class ShoppingListPage extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_shopping_list_page, container, false);
     }
+
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        getActivity().finish();
     }
 }

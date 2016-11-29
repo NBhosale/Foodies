@@ -37,6 +37,16 @@
         <item>Sign Out</item>
         <item>Add Recipe</item>
     </string-array>
+
+
+    <string-array name="differentcousins">
+        <item>Italian</item>
+        <item>Indian</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Mexican</item>
+        <item>Continental</item>
+    </string-array>
     <string name="open_drawer">Open drawer</string>
     <string name="close_drawer">Close drawer</string>
     <!-- TODO: Remove or change this placeholder text -->

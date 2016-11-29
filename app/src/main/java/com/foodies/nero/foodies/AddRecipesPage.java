@@ -74,10 +74,13 @@ public class AddRecipesPage extends Fragment {
             }
         });
 
-
-
-
         return view;
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        getActivity().finish();
     }
 
     public interface OnFragmentInteractionListener {
