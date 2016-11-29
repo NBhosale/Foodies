@@ -46,7 +46,11 @@ public class DisplayRecipe extends AppCompatActivity {
         String data = objectArray[0] + "\n"+"Origin: "+objectArray[3] + "\n"+"Type: "+objectArray[4];
         originType.setText(data);
         discription.setText(objectArray[1]);
-        Picasso.with(this).load(objectArray[2]).into(imageToDisplay);
+        try {
+            Picasso.with(this).load(objectArray[2]).into(imageToDisplay);
+        }catch (Exception e){
+            imageToDisplay.setBackgroundResource(R.mipmap.foodieslogo);
+        }
 
     }
 
@@ -57,6 +61,7 @@ public class DisplayRecipe extends AppCompatActivity {
                 // app icon in action bar clicked; go home
                 Intent intent = new Intent(this, ListViewForRecipes.class);
                 intent.putExtra("typeOfFood", objectArray[4]);
+                intent.putExtra("CousinName", objectArray[3]);
                 startActivity(intent);
                 finish();
                 return true;

@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -23,6 +24,7 @@ public class CustomListAdapter extends ArrayAdapter<String>{
     private final ArrayList<String> itemname;
     private final ArrayList<Bitmap> bitmapArray;
     private final ArrayList<String> origin;
+
 
     public CustomListAdapter(Activity context, ArrayList<String> itemname, ArrayList<String> origin, ArrayList<Bitmap> imgid) {
         super(context, R.layout.custom_list_view, itemname);
@@ -40,13 +42,14 @@ public class CustomListAdapter extends ArrayAdapter<String>{
     public View getView(int position,View view,ViewGroup parent) {
         LayoutInflater inflater= context.getLayoutInflater();
         View rowView=inflater.inflate(R.layout.custom_list_view, null,true);
-
+        ImageView image = (ImageView)  rowView.findViewById(R.id.setBackground);
         TextView txtTitle = (TextView) rowView.findViewById(R.id.item);
         ImageView imageView = (ImageView) rowView.findViewById(R.id.icon);
         TextView extratxt = (TextView) rowView.findViewById(R.id.textView1);
 
         txtTitle.setText(itemname.get(position));
         imageView.setImageBitmap(bitmapArray.get(position));
+        image.setImageBitmap(bitmapArray.get(position));
         extratxt.setText("Origin: "+origin.get(position));
         //Log.d("Debug","Item name of the "+itemname.get(position) + "The origin of the recepie is "+"Origin: "+origin.get(position));
         return rowView;

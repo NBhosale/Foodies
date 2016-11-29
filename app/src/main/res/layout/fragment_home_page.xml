@@ -13,34 +13,17 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="match_parent"
             android:layout_weight="1">
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="In an era where we have 24/7 access to cooking shows, magazines, and Web sites, it seems like more and more people are calling themselves &quot;foodies.&quot; Foodie used to be another term for a connoisseur of gourmet food, who turned up his nose at everyday dishes and dined at expensive five-star restaurants. That lifestyle wasn't realistic for most people."
             android:textSize="20sp"
             android:layout_margin="10dp"
             android:background="?android:attr/colorPressedHighlight" /></ScrollView>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.2"
-            android:text="Todays Recipes"
-            android:textSize="20sp"
-            android:gravity="center_vertical|center_horizontal"
-            android:background="@android:color/holo_green_light"
-            android:layout_margin="10dp" />
-        <ListView
-            android:id="@+id/list"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_margin="10dp">
-        </ListView>
+
     </LinearLayout>
 
 </FrameLayout>

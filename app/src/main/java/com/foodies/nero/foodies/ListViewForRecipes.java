@@ -70,7 +70,7 @@ public class ListViewForRecipes extends AppCompatActivity {
         itemName = new ArrayList<String>();
         origin  = new ArrayList<String>();
         fireBaseReference =  new Firebase("https://foodies-2f4d9.firebaseio.com/Recipes");
-        new AsyncTask<Void, Void, Void>() {
+        new AsyncTask<Void, Integer, Void>() {
             @Override
             protected void onPreExecute() {
                 super.onPreExecute();
@@ -79,7 +79,7 @@ public class ListViewForRecipes extends AppCompatActivity {
             }
 
             @Override
-            protected void onProgressUpdate(Void... values) {
+            protected void onProgressUpdate(Integer... values) {
                 super.onProgressUpdate(values);
                 adapter = new CustomListAdapter(ListViewForRecipes.this, itemName, origin, bitmapArray);
                 adapter.notifyDataSetChanged();
@@ -95,6 +95,7 @@ public class ListViewForRecipes extends AppCompatActivity {
                     public void onDataChange(DataSnapshot snapshot) {
                         int i  =0;
                         for (DataSnapshot postSnapshot: snapshot.getChildren()) {
+                            Log.d("debug", itemName.size() +" -hfghghgghhghghg- "+ discription.size()  +" -- "+ urlOfRecipe.size()   +" -- "+  origin.size());
                             Recipe recipe = postSnapshot.getValue(Recipe.class);
                             //System.out.println(recipe.getNameOfRecipe() + " - " + recipe.getImageURL() + " - " + recipe.getDescription() + " - "+recipe.OriginOfRecipe);
                             String foodTypeholder = recipe.getTypeOfRecipe().toString();
@@ -108,6 +109,7 @@ public class ListViewForRecipes extends AppCompatActivity {
                                 urlOfRecipe.add(recipe.getImageURL());
                                 IMAGE_URL = recipe.getImageURL();
                                 try{
+                                    publishProgress(0);
                                     URL url = new URL(IMAGE_URL);
                                     HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                                     connection.setDoInput(true);
@@ -122,12 +124,10 @@ public class ListViewForRecipes extends AppCompatActivity {
                                     Bitmap bitmap =BitmapFactory.decodeResource(getResources(),R.mipmap.foodieslogo);
                                     bitmapArray.add(bitmap);
                                 }
-
-
+                                publishProgress(0);
                             }
-
+                            publishProgress(0);
                         }
-
                         progressDialog.dismiss();
                     }
                     @Override
@@ -135,9 +135,11 @@ public class ListViewForRecipes extends AppCompatActivity {
                         System.out.println("The read failed: " + firebaseError.getMessage());
                     }
                 });
+                publishProgress(0);
                 return null;
             }
         }.execute();
+        Log.d("debug", itemName.size() +" -jjjjjjjjjjjjjj- "+ discription.size()  +" -- "+ urlOfRecipe.size()   +" -- "+  origin.size());
         adapter = new CustomListAdapter(ListViewForRecipes.this, itemName, origin, bitmapArray);
 
         adapter.notifyDataSetChanged();
@@ -146,7 +148,7 @@ public class ListViewForRecipes extends AppCompatActivity {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Log.d("debug", itemName.size() +" -- "+ discription.size()  +" -- "+ urlOfRecipe.size()   +" -- "+  origin.size());
+
                 if(itemName.size() > 0 && discription.size() >0 && urlOfRecipe.size() > 0 && origin.size() > 0){
                 arrayOfRecipeObjects[0] = itemName.get(position);
                 arrayOfRecipeObjects[1] = discription.get(position);
@@ -159,6 +161,7 @@ public class ListViewForRecipes extends AppCompatActivity {
              }
 
         });
+
     }
 
     @Override
