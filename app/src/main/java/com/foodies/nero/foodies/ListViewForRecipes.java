@@ -40,7 +40,6 @@ public class ListViewForRecipes extends AppCompatActivity {
     CustomListAdapter adapter;
     int activityToLaunch;
     private ProgressDialog progressDialog;
-    //FirebaseDatabase ref = new FirebaseDatabase();
     Firebase fireBaseReference;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,14 +94,10 @@ public class ListViewForRecipes extends AppCompatActivity {
                     public void onDataChange(DataSnapshot snapshot) {
                         int i  =0;
                         for (DataSnapshot postSnapshot: snapshot.getChildren()) {
-                            Log.d("debug", itemName.size() +" -hfghghgghhghghg- "+ discription.size()  +" -- "+ urlOfRecipe.size()   +" -- "+  origin.size());
                             Recipe recipe = postSnapshot.getValue(Recipe.class);
-                            //System.out.println(recipe.getNameOfRecipe() + " - " + recipe.getImageURL() + " - " + recipe.getDescription() + " - "+recipe.OriginOfRecipe);
                             String foodTypeholder = recipe.getTypeOfRecipe().toString();
                             String originOfRecipeHolder = recipe.getOriginOfRecipe().toString();
-                            Log.d("Debug", originOfRecipeHolder);
                             if(foodTypeholder.equals(foodType) && originOfRecipeHolder.equals(foodToLaunch)){
-                                //Log.d("Debug","Type of food "+foodType +" Name of recipe: "+recipe.getNameOfRecipe() +" ----- "+ recipe.getImageURL()+ " Cousine type "+recipe.getOriginOfRecipe().toString());
                                 itemName.add(recipe.getNameOfRecipe());
                                 origin.add(recipe.getOriginOfRecipe());
                                 discription.add(recipe.getDescription());
@@ -116,8 +111,6 @@ public class ListViewForRecipes extends AppCompatActivity {
                                     connection.connect();
                                     InputStream input = connection.getInputStream();
                                     Bitmap bitmap = BitmapFactory.decodeStream(input);
-                                    //InputStream in = new URL(IMAGE_URL).openStream();
-                                    //bitmap = BitmapFactory.decodeStream(in);
                                     bitmapArray.add(bitmap);
                                 }
                                 catch(Exception E){
@@ -139,7 +132,6 @@ public class ListViewForRecipes extends AppCompatActivity {
                 return null;
             }
         }.execute();
-        Log.d("debug", itemName.size() +" -jjjjjjjjjjjjjj- "+ discription.size()  +" -- "+ urlOfRecipe.size()   +" -- "+  origin.size());
         adapter = new CustomListAdapter(ListViewForRecipes.this, itemName, origin, bitmapArray);
 
         adapter.notifyDataSetChanged();

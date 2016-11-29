@@ -43,9 +43,9 @@ public class MainActivityNavigation extends AppCompatActivity {
             menuItems = navigationForNormalUser;
         } else if (firebaseUser.getEmail().toString().equals("adminfoodies@gmail.com")) {
             menuItems = R.array.navigation_drawer_items_array_admin;
-            Toast.makeText(this, "Welcome " + firebaseUser.getEmail().toString(), Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Welcome " + firebaseUser.getEmail().toString(), Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Welcome " + firebaseUser.getEmail().toString(), Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Welcome " + firebaseUser.getEmail().toString(), Toast.LENGTH_SHORT).show();
             menuItems = navigationForLoggedInUser;
         }
         if (getIntent().getIntExtra("StartFragmentNUmber", 0) == 1) {

@@ -19,12 +19,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ShoppingListPage.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ShoppingListPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ListViewForRecipes.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ListViewForRecipes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/MainActivityNavigation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/MainActivityNavigation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_page.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_page.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings_page.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings_page.xml" />
     </list>
     <ignored path="FoodiesApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,30 +65,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fragment_shopping_list_page.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_shopping_list_page.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShoppingListPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ShoppingListPage.java">
+      <file leaf-file-name="ListViewForRecipes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ListViewForRecipes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+            <state relative-caret-position="-1401">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
-                <element signature="e#1191#1199#0" expanded="true" />
-                <element signature="e#3159#4039#0" expanded="true" />
-                <element signature="e#4038#4039#0" expanded="true" />
-                <element signature="e#4081#4600#0" expanded="true" />
-                <element signature="e#4599#4600#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2120,18 +2103,19 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/MainCoursePage.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/DessertPage.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/MainActivityNavigation.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/StartersPage.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ListViewForRecipes.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/CustomListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/DisplayRecipe.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_list_view.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_display_recipe.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_shopping_list_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ShoppingListPage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ListViewForRecipes.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/MainActivityNavigation.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings_page.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_page.xml" />
       </list>
     </option>
   </component>
@@ -2183,6 +2167,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodiesApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2621,7 +2627,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.507874" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42536327" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23778072" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2674,8 +2680,8 @@
           <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7012#7861#0" expanded="true" />
-            <element signature="e#7860#7861#0" expanded="true" />
+            <element signature="e#6048#6897#0" expanded="false" />
+            <element signature="e#6896#6897#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2742,17 +2748,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_view_item_row.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_item_list.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register_user.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_settings_page.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2839,14 +2834,6 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/Recipe.java">
@@ -2977,26 +2964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/MainActivityNavigation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ListViewForRecipes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="54" column="56" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7012#7861#0" expanded="true" />
-            <element signature="e#7860#7861#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/CustomListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -3056,17 +3023,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home_page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
@@ -3109,7 +3065,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ShoppingListPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="480">
           <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
           <folding>
             <element signature="e#1191#1199#0" expanded="true" />
@@ -3117,6 +3073,54 @@
             <element signature="e#4038#4039#0" expanded="true" />
             <element signature="e#4081#4600#0" expanded="true" />
             <element signature="e#4599#4600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home_page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_settings_page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/MainActivityNavigation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/foodies/nero/foodies/ListViewForRecipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1401">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
