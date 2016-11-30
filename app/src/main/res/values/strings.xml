@@ -48,6 +48,7 @@
         <item>Continental</item>
     </string-array>
     <string name="open_drawer">Open drawer</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9168908591185135/9453389601</string>
     <string name="close_drawer">Close drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
