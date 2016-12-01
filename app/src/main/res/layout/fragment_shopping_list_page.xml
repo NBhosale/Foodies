@@ -12,6 +12,8 @@
         android:layout_height="wrap_content"
         android:hint="Enter item"
         android:textSize="24dp"
+        android:maxLength="15"
+        android:maxLines="1"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 

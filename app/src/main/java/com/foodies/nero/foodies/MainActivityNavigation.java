@@ -167,7 +167,7 @@ public class MainActivityNavigation extends AppCompatActivity {
                 finish();
                 break;
             default:
-                fragment = new AddRecipesPage();
+                fragment = new HomePage();
 
         }
         FragmentTransaction ft = getFragmentManager().beginTransaction();

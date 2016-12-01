@@ -97,6 +97,8 @@ public class ShoppingListPage extends Fragment {
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
+                    et.setText("");
+                    et.getText().clear();
                 }
             }
         });

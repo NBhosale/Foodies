@@ -106,6 +106,7 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
                         finish();
 
                     }else{
+                        progressDialog.dismiss();
                         Toast.makeText(RegisterUser.this, "Registered Unsuccessfully, Please Try again!", Toast.LENGTH_SHORT).show();
                     }
                 }
